@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.container-fluid .navbar-brand {
+    font-weight: bold;
+    color: #011555;
+}
+
+.header {
+    width: 100%;
+    height: 820px;
+    background: url('../images/tashkent_travels_02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .text {
+    padding-top: 50px;
+}
+
+.header .text span {
+    font-size: 50px;
+    color: #011555;
+    font-weight: bold;
+
+}
+
+.header .text p {
+    color: #626262;
+    font-size: 50px;
+}
+
+.header .text h6 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.header .box {
+    width: 380px;
+    height: 390px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    line-height: 40px;
+    margin-top: 100px;
+
+}
+
+.header .box h4 {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #011556;
+}
+
+.flot .logo h5 {
+    color: #011556;
+    font-size: 50px;
+
+}
+
+.header .box .one input {
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid;
+
+}
+
+.header .box .two input {
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid;
+
+
+}
+
+.header .box .there {
+    border: none;
+    width: 300px;
+}
+
+.header .box a {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #011556;
+    color: white;
+    text-decoration: none;
+}
+
+.flot .row .txt u {
+    color: #011556;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.text-log .box-txt {
+    padding: 150px 200px;
+}
+
+.text-log .box-txt p {
+    color: #011555;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text-log .box-txt span {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* .travels-img .logo .box img{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+ */
+/* .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+} */
+.cardme {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 30px;
+    /* margin-left: 30px; */
+}
+
+.cardme img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardme-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cardme-body {
+    position: absolute;
+    /* padding: 40px 10px; */
+    text-align: center;
+    height: 100%;
+    opacity: 0;
+}
+
+.cardme .opacity {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+}
+
+.cardme-body h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cardme-body p {
+    margin-top: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.cardme-body a {
+    font-size: 15pxpx;
+    padding: 15px 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.cardme:hover .opacity {
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+.cardme:hover .cardme-body {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.travel-texts .travels {
+    padding: 30px 0px 200px;
+}
+
+.travel-texts .travels h4 {
+    text-align: center;
+    color: #011556;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.travel-texts .travels p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.travel-logo .text-footer h6 {
+    font-size: 50px;
+    color: #011556;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.travel-logo .text-footer p {
+    font-size: 16px;
+    color: #000000;
+    padding: 0px 200px 80px;
+}
+
+.users {
+    width: 100%;
+    height: 500px;
+
+}
+
+.users .user {
+    width: 230px;
+    height: 395px;
+    position: relative;
+    background: white;
+}
+
+.users .user:hover {
+    opacity: 0.2;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+.user img {
+    width: 300px;
+    height: 350px;
+}
+
+.user .txt {
+    position: absolute;
+    width: 230px;
+    text-align: center;
+    left: 36px;
+    bottom: 45px;
+    height: 45px;
+    padding: 10px 5px;
+    background: white;
+}
+
+.user .txt h4 {
+    color: #4c4c4c;
+    font-weight: 700;
+
+}
+
+.user .txt p {
+    color: #4d5b88;
+    font-size: 24px;
+}
+
+
+.section-1 .row .box-new h1 {
+
+    color: #011556;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.section-1 .row .box-new p {
+    color: #000000;
+    font-size: 16px;
+    padding-bottom: 60px;
+
+}
+
+
+/* review section start */
+
+.review-img {
+
+    position: absolute;
+    top: -50px;
+    left: calc((100% - 100px) / 2);
+
+}
+
+.review-img img {
+
+    width: 100px;
+    height: auto;
+
+}
+.review-text p{
+    color: #000000;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.review-text {
+
+    text-align: center;
+    padding: 88px 25px 20px 25px;
+
+}
+
+.review-author {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+footer{
+    height: 280px;
+    background-color: #f7f7f7;
+}
+footer .footer-text{
+    padding-top: 50px;
+}
+footer .footer-text a{
+    width: 300px;
+    height: 150px;
+    padding: 20px 100px;
+    border: 2px solid #011555;
+    background-color: #011555;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+}
+footer .footer-link{
+    margin-top: 70px;
+    margin-right: 70px;
+}
+footer .footer-link .ikon{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-link .text-bon h3{
+    padding-top: 5px;
+    color: #000000;
+    font-size: 17px;
+   
+}
+footer .footer-link .ikon .feecbook img{
+    width: 100%;
+}
+footer .footer-link .ikon .twitter img{
+    width: 100%;
+}
+footer .footer-link .ikon .midd img{
+    width: 100%;
+}
